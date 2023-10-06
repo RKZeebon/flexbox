@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+    gap: 10px;
+    background-color: lightgray;
+    height: 800px;
+    align-items: start;
+    justify-content: start;
+}
+
+img {
+    width: 350px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#show-code {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
